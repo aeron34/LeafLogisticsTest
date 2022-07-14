@@ -1,0 +1,35 @@
+.box {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.missing {
+  width: 300px;
+  height: 170px;
+}
+
+.desc {
+  display: -webkit-box;
+ max-width: 100%;
+ -webkit-line-clamp: 4;
+ -webkit-box-orient: vertical;
+ overflow: hidden;
+ color:rgb(122, 122, 122);
+}
+
+.title {
+  width:100%;
+  height: 20px;
+  height: auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
